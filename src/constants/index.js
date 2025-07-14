@@ -1,226 +1,81 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+    title: "Centrium – In Development",
+    video: "/assets/projects/Centrium.mp4",
+    previewVideo: "/assets/projects/cen.webm",
+    image: "/assets/projects/centrium.jpg",
+    description: "A story-driven 2D game that blends fast-paced gameplay with deep emotional storytelling. Currently under development.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built with Unity and C# for responsive 2D platforming mechanics.",
+      "Storyline-driven levels designed in Aseprite with in-game narration.",
+      "Integrated custom audio and animated cutscenes using DaVinci Resolve."
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
+    href: "#",
+   
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Unity", path: "/assets/logos/UN.svg" },
+      { id: 2, name: "C#", path: "/assets/logos/csharp.svg" },
+      { id: 3, name: "Aseprite", path: "/assets/logos/sprite.svg" }
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+    title: "AI-Powered Recruitment Platform Video",
+    video: "/assets/projects/Ai.mp4",
+    previewVideo: "/assets/projects/jo.webm",
+    description: "Explainer video project for an AI recruitment platform. Handled script, visuals, voiceover, and animations using After Effects and Lottie.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Used After Effects and Lottie for motion design.",
+      "Integrated storytelling structure and voiceover sync.",
+      "Created icon-based visuals and transitions to explain technical content."
     ],
-    href: "",
+    href: "https://drive.google.com/drive/folders/1H-27kshI6Tq9P6SO_Jz71RKXa99izsHh?usp=sharing",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/ai-video.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "After Effects", path: "/assets/logos/ae.svg" },
+      { id: 3, name: "Davinci Reslove", path: "/assets/logos/vinci.svg" }
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+    title: "Dumbo’s Adventure – 2D Platformer",
+    video: "/assets/projects/Dumbo.mp4",
+    previewVideo: "/assets/projects/vo.webm",
+    description: "A 2D platformer where a baby octopus overcomes underwater threats and collects crystals. Available on Google Play Store.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Used Unity and C# for level design and enemy interactions.",
+      "Crafted pixel art using Aseprite.",
+      "Released on the Play Store after final testing and polish."
     ],
-    href: "",
+    href: "https://play.google.com/store/apps/details?id=com.zormitestudios.dumbo",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/dumbo.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Unity", path: "/assets/logos/UN.svg" },
+      { id: 2, name: "C#", path: "/assets/logos/csharp.svg" },
+      { id: 3, name: "Aseprite", path: "/assets/logos/sprite.svg" }
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+    title: "Multiplayer VR Platform",
+    video: "/assets/projects/rom.mp4",
+    previewVideo: "/assets/projects/rp.webm",
+    image: "/assets/projects/centrium.jpg",
+    description: "A VR-based multiplayer social platform built using Unity, enabling user interaction via VR headsets.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Built VR environment using Unity’s XR toolkit.",
+      "Implemented player interaction and spatial audio.",
+      "Hosted on GitHub for future updates and community testing."
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    href: "https://github.com/santhoshdev2004/Multiplayer_VR/",
     tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
+      { id: 1, name: "Unity", path: "/assets/logos/UN.svg" },
+      { id: 2, name: "VR", path: "/assets/logos/Meta.svg" }
     ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  }
 ];
 
 export const mySocials = [
@@ -231,98 +86,97 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/santhosh-u/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/santhoshteslau/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Game Developer & Designer",
+    job: "Zormite Studios",
+    date: "Mar 2024 – Sep 2024",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Designed and developed Dumbo’s Adventure, a 2D underwater platformer using Unity and C#.",
+      "Created pixel art animations and level assets in Aseprite.",
+      "Implemented enemy AI, level transitions, and crystal-collecting mechanics.",
+      "Published the game on the Google Play Store after polishing and QA testing."
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Creative Developer – Video",
+    job: "Freelance",
+    date: "Dec 2022 – Jul 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Created explainer videos, motion graphics, and storytelling content using After Effects and DaVinci Resolve.",
+      "Scripted, visualized, and edited the AI-Powered Recruitment Platform video for Akhira Services.",
+      "Worked on AR-based prototypes and game cutscenes combining Unity, narration, and 2D/3D effects."
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "VR Multiplayer Developer",
+    job: "Personal Project",
+    date: "Dec 2022 – May 2023",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Developed a multiplayer VR social platform using Unity XR Toolkit.",
+      "Enabled avatar-based interaction with spatial voice and movement sync.",
+      "Released project as open-source on GitHub for collaborative testing."
     ],
-  },
+  }
 ];
+
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    name: "Hari Prasath",
+    username: "@hariprasath",
+    body: "Looks amazing Santhosh 🔥 Loved your dedication and creativity in the storytelling.",
     img: "https://robohash.org/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    name: "Krishna Kumar",
+    username: "@krishnakumar",
+    body: "Santhosh, you've grown so much as a game developer. I’ve seen you break limits and rise. Proud of you! 💪❤️",
     img: "https://robohash.org/jill",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    name: "Nitish Kumar G",
+    username: "@nitishg",
+    body: "A fantastic game to explore the ocean world. Great for beginners, and full of excitement and adventure.",
     img: "https://robohash.org/john",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
+    name: "M. Prem",
+    username: "@prem",
+    body: "Nice game to play. Smooth and fun experience!",
     img: "https://robohash.org/alice",
   },
   {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
+    name: "Barani Tharan",
+    username: "@barani",
+    body: "Keep rocking, Santhosh. Silence is not weakness – it’s your strength. Great job!",
     img: "https://robohash.org/bob",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
+    name: "Ajo S S",
+    username: "@ajo",
+    body: "Looks amazing! Is this inspired by Blasphemous? Excited to see more!",
     img: "https://robohash.org/charlie",
   },
   {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
+    name: "Viswesh",
+    username: "@vish",
+    body: "This game is awesome! love it.",
     img: "https://robohash.org/dave",
   },
   {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
+    name: "Ranjith V",
+    username: "@ranjith",
+    body: "Cool levels and fun gameplay. Some improvements needed, but overall a great game.",
     img: "https://robohash.org/eve",
   },
 ];
