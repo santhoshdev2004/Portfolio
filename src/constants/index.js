@@ -61,7 +61,7 @@ export const myProjects = [
   {
     id: 4,
     title: "Multiplayer VR Platform",
-    video: "/assets/projects/rom.mp4",
+    video: "/assets/projects/zom.mp4",
     previewVideo: "/assets/projects/rp.webm",
     image: "/assets/projects/centrium.jpg",
     description: "A VR-based multiplayer social platform built using Unity, enabling user interaction via VR headsets.",
