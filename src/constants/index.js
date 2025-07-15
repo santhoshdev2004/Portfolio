@@ -2,8 +2,8 @@ export const myProjects = [
   {
     id: 1,
     title: "Centrium – In Development",
-    video: "/assets/projects/Centrium.mp4",
-    previewVideo: "/assets/projects/cen.webm",
+    video: "https://res.cloudinary.com/diyrvqdyx/video/upload/v1752599132/Centrium_ejwuok.mp4",
+    previewVideo: "https://res.cloudinary.com/diyrvqdyx/video/upload/v1752599249/cen_vxiv3l.webm",
     image: "/assets/projects/centrium.jpg",
     description: "A story-driven 2D game that blends fast-paced gameplay with deep emotional storytelling. Currently under development.",
     subDescription: [
@@ -22,8 +22,8 @@ export const myProjects = [
   {
     id: 2,
     title: "AI-Powered Recruitment Platform Video",
-    video: "/assets/projects/Ai.mp4",
-    previewVideo: "/assets/projects/jo.webm",
+    video: "https://res.cloudinary.com/diyrvqdyx/video/upload/v1752599806/Ai_s6otvi.mp4",
+    previewVideo: "https://res.cloudinary.com/diyrvqdyx/video/upload/v1752599856/jo_w2mtlb.webm",
     description: "Explainer video project for an AI recruitment platform. Handled script, visuals, voiceover, and animations using After Effects and Lottie.",
     subDescription: [
       "Used After Effects and Lottie for motion design.",
@@ -41,8 +41,8 @@ export const myProjects = [
   {
     id: 3,
     title: "Dumbo’s Adventure – 2D Platformer",
-    video: "/assets/projects/Dumbo.mp4",
-    previewVideo: "/assets/projects/vo.webm",
+    video: "https://res.cloudinary.com/diyrvqdyx/video/upload/v1752599523/Dumbo_ctsbpc.mp4",
+    previewVideo: "https://res.cloudinary.com/diyrvqdyx/video/upload/v1752599691/vo_jo46hz.webm",
     description: "A 2D platformer where a baby octopus overcomes underwater threats and collects crystals. Available on Google Play Store.",
     subDescription: [
       "Used Unity and C# for level design and enemy interactions.",
@@ -61,8 +61,8 @@ export const myProjects = [
   {
     id: 4,
     title: "Multiplayer VR Platform",
-    video: "/assets/projects/zom.mp4",
-    previewVideo: "/assets/projects/rp.webm",
+    video: "https://res.cloudinary.com/diyrvqdyx/video/upload/v1752599936/zom_nxloky.mp4",
+    previewVideo: "https://res.cloudinary.com/diyrvqdyx/video/upload/v1752599966/rp_nndafd.webm",
     image: "/assets/projects/centrium.jpg",
     description: "A VR-based multiplayer social platform built using Unity, enabling user interaction via VR headsets.",
     subDescription: [
